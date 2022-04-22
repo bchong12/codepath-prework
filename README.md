@@ -45,6 +45,8 @@ The following **additional** features are implemented:
 ## Video Walkthrough (GIF)
 
 If you recorded multiple GIFs for all the implemented features, you can add them here:
+<br>
+
 ***Changing difficulty in the homepage***
 <img src="https://recordit.co/QhXw86kxmC.gif" width=900><br>
 
