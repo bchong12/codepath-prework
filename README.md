@@ -35,10 +35,12 @@ The following **optional** features are implemented:
 The following **additional** features are implemented:
 
 - [x] Added a start home page
-- [x] Added different difficulties
-- [x] Added background images
 - [x] Added a you win page
 - [x] Added a you lose page
+- [x] Added navigation between the different pages
+- [x] Added different difficulties changing the game speed
+- [x] Added background images
+
 
 ## Video Walkthrough (GIF)
 
