@@ -50,11 +50,11 @@ If you recorded multiple GIFs for all the implemented features, you can add them
 I utilized resources such as stackoverflow, w3schools, teamtreehouse.com, developer.mozilla.org, and homeandlearn.co.uk. Some examples of the links I used are listed below. 
 
 List:
-https://developer.mozilla.org/en-US/docs/Web/API/Element/innerHTML
-https://www.w3schools.com/js/js_loop_for.asp
-https://stackoverflow.com/questions/8860188/javascript-clear-all-timeouts#:~:text=To%20clear%20all%20timeouts%20they
-https://stackoverflow.com/questions/4435776/simple-clock-that-counts-down-from-30-seconds-and-executes-a-function-afterward
-https://www.w3schools.com/html/html_images_background.asp
+- https://developer.mozilla.org/en-US/docs/Web/API/Element/innerHTML
+- https://www.w3schools.com/js/js_loop_for.asp
+- https://stackoverflow.com/questions/8860188/javascript-clear-all-timeouts#:~:text=To%20clear%20all%20timeouts%20they
+- https://stackoverflow.com/questions/4435776/simple-clock-that-counts-down-from-30-seconds-and-executes-a-function-afterward
+- https://www.w3schools.com/html/html_images_background.asp
 
 
 2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words) 
@@ -79,7 +79,7 @@ If I had a few more hours to work on this project, I would definitely spend time
 
 ## License
 
-    Copyright [YOUR NAME]
+    Copyright [Branden Chong]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
