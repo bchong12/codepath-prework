@@ -45,10 +45,21 @@ The following **additional** features are implemented:
 ## Video Walkthrough (GIF)
 
 If you recorded multiple GIFs for all the implemented features, you can add them here:
-![x]<img src="https://recordit.co/41xQNYVzPr.gif" width=1000><br>
-![](gif2-link-here)
-![](gif3-link-here)
-![](gif4-link-here)
+***Changing difficulty in the homepage***
+<img src="https://recordit.co/QhXw86kxmC.gif" width=900><br>
+
+***Difficulty changed in the gamepage***
+<img src="https://recordit.co/cbzUJDeQm9.gif" width=900><br>
+
+***Gameplay***
+<img src="https://recordit.co/9h0N5rntp8.gif" width=900><br>
+
+***Win Page***
+<img src="https://recordit.co/RkcVLWI8ED.gif" width=900><br>
+
+***Lose Page***
+<img src="https://recordit.co/wiQONwzIWr.gif" width=900><br>
+
 
 ## Reflection Questions
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
