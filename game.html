@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="https://glitch.com/favicon.ico" />
+
+    <title>Hello world!</title>
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/gamestyle.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+  <body style="background-image: url(https://cdn.glitch.global/bab9eb5b-0ff7-477c-9775-45e0917c912e/Treasury_%2528Mass_for_the_Dead%2529.webp?v=1650584210561); background-size: 100%;">
+    <!-- this is the start of content -->
+    <h1>
+      Crack the Safe 🔒 (Simon Game)
+    </h1>
+    <p id="welcomeMsg">
+      Welcome to Crack the Safe! Repeat back the pattern by pressing the combinations!
+    </p>
+    <div class = "progressDiv">
+      <p id="pd1">
+      Your score is: 
+      </p>
+      <p id = "progressScore">
+        0
+      </p>
+      <p id="pd2">
+        Level:
+      </p>
+      <p id = "levelInHtml">
+      </p>
+      <p id="pd3">
+        Lives:
+      </p>
+      <p id="pdLives">
+        3
+      </p>
+      <p id="pd4">
+        Time:
+      </p>
+      <p id="timer">
+        30
+      </p>
+    </div>
+    <div id = "startStopDiv">
+      <button id = "startButton" onclick = "startGame()">
+      💰💰💰💰
+      </button>
+      <button id = "stopButton" class="hidden" onclick="stopGame()">
+        🏃🏃💨💨
+      </button>
+      <button id = "goback" onclick="window.location.href='/index.html'">
+        🔙🏠
+      </button>
+    </div>
+    <div id="gameButtonArea">
+      <p id="safeTitle">
+        𝒯𝒪𝒫 𝒮𝐸𝒞𝑅𝐸𝒯 𝒮𝒜𝐹𝐸
+      </p>
+      <div>
+        <button id="button1" class = "gameButton" onclick="guess(1)" onmousedown="startTone(1)" onmouseup="stopTone()">1</button>
+        <button id="button2" class = "gameButton" onclick="guess(2)" onmousedown="startTone(2)" onmouseup="stopTone()">2</button>
+        <button id="button3" class = "gameButton" onclick="guess(3)" onmousedown="startTone(3)" onmouseup="stopTone()">3</button>
+      </div>
+      <div>
+        <button id="button4" class = "gameButton" onclick="guess(4)" onmousedown="startTone(4)" onmouseup="stopTone()">4</button>
+        <button id="button5" class = "gameButton" onclick="guess(5)" onmousedown="startTone(5)" onmouseup="stopTone()">5</button>
+        <button id="button6" class = "gameButton" onclick="guess(6)" onmousedown="startTone(6)" onmouseup="stopTone()">6</button>
+      </div>
+      <div>
+        <button id="button7" class = "gameButton" onclick="guess(7)" onmousedown="startTone(7)" onmouseup="stopTone()">7</button>
+        <button id="button8" class = "gameButton" onclick="guess(8)" onmousedown="startTone(8)" onmouseup="stopTone()">8</button>
+        <button id="button9" class = "gameButton" onclick="guess(9)" onmousedown="startTone(9)" onmouseup="stopTone()">9</button>
+      </div>
+    </div>
+  </body>
+</html>

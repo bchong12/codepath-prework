@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="https://glitch.com/favicon.ico" />
+
+    <title>Hello world!</title>
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+  <body style="background-image: url(https://i.pinimg.com/originals/71/39/dd/7139dd6272a860538e003f7e0405d876.jpg); background-size: 100%;">
+    <div class = "chalkboard">
+      <h1 class = "colorwhite">
+      WELCOME THIEF IN TRAINING!
+    </h1>
+    <p class = "colorwhite">
+      Today, your mission will be to practice cognitive and critical thinking skills that may help you on the job...so pay attention!
+    </p>
+    <div id = "difficultyDiv">
+      <label for="difficulty" class = "colorwhite">Choose a level:</label>
+      <select name="level" id="levelChooser">
+        <option value="easy">Easy</option>
+        <option value="medium">Medium</option>
+        <option value="hard">Hard</option>
+        <option value="insane">Insane</option>
+      </select>
+    </div>
+    <button id = "play-button" onclick="window.location.href='/game.html'">
+      PLAY
+    </button>
+    </div>
+  </body>
+  
+  <script>
+    const levels = document.getElementById('levelChooser');
+    levels.addEventListener('change', (event) => {
+      let currLevel = event.target.value;
+      localStorage.setItem('currLevel', currLevel);
+    });
+  </script>
+</html>
